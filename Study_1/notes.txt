@@ -1,0 +1,19 @@
+Synchronous tasks: This involves waiting time.
+Asyncronous: This does not involve waiting. 
+
+NodeJS works on a single thread. Tis means you can only do one task at a time. If there's any task that is wasting time move it to the Call Stack.
+
+Diffence between Browser JS and NodeJS.
+
+1) Browser has DOM but NOde does not have it. 
+2) Browser has Window but Node does not have window elements or objects.
+3) Browser has Interactive Apps and the Node has Server Side Apps.
+4) Browser need no FileSystem while Node needs a FileSystem(Code is pladed on some directory).
+5) Most browsers nowasyas work on latest ES6 Modules wile the Node supports regular JS Modules.
+
+What is the Event Loop? Continuously calling the call stack to see if there's any function to be executed.
+
+* NodeJS can be asynchronous and has non-blocking I/O.
+* Killer Feature of NodeJS that made it that successful.
+* NodeJs runs on a signle thread.
+* There's one thing happening at a time.
